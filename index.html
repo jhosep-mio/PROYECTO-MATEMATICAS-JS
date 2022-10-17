@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicando conocimientos de JS-MATEMATICA</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="title">
+        <h1>Análisis Salarial</h1>
+        <p>Este es un analisis salarial ficticio para practicar con algunas herammientas aprendidas de Javascript</p>
+    </div>
+    <div class="container">
+        <div class="botones-cambio">
+            <button id="enterprices-button" class="salarys__change-button salarys__change-button--active">Empresas</button>
+            <button id="persons-button" class="salarys__change-button">Personas</button>
+        </div>
+        <section class="proyect-salarios">
+            
+        </section>
+
+        
+
+    </div>
+
+    <section class="proyecciones">
+        <h3>Proyecciones salariales</h3>
+        <p>Proyección del salario promedio que darán las empresas para el año 2024</p>
+        <div class="promedio-cajas">
+            <section class="container2">
+                <select name="select" id= "seleccion"class="seleccion">
+                    
+                </select>
+                <button id="proyeccion" class="cal-prom">Calcular</button>
+            </section>
+            <p class="promAño"></p>
+        </div>
+         
+        <p>Promedio de salario que pagó una empresa por añ</p>
+        <div class="promedio-cajas">
+            <section class="container2">
+                <select name="select" id="seleccion2"class="seleccion">
+                    
+                </select>
+                
+                <select name="select" id="selectAño"class="seleccion">
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                </select>
+                <button id="buton" class="cal-prom">Calcular</button>
+            </section>
+            <p class="parrafoMediana"></p>
+        </div>
+
+        
+    </section>
+
+    <script src="listas.js"></script>
+<script src="claseFuncion.js"></script>
+<script src="analisis.js"></script>
+
+</body>
+
+</html>

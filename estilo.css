@@ -1,0 +1,239 @@
+/* GENERAL */
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 12px;
+    --md: 20px;
+    --lg: 25px;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.title {
+    width: 80%;
+    text-align: center;
+}
+
+.title h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 18px;
+}
+
+.salarys__change-button{
+    width: 100px;  
+    height: 50px;
+    border: none;
+    background: white;
+    border-left: solid 1px #000;
+    border-right: solid 1px #000;
+    border-top: solid 1px #000;
+}
+
+.salarys__change-button--active {
+    background: var(--black);
+    color: var(--white);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.proyect-salarios{
+    width: 100%;
+    height: 460px;
+    display: grid;
+    border: 1px solid var(--black);
+    grid-template-columns: auto auto auto auto auto;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+}
+.inactive {
+    width: 100%;
+    height: 460px;
+    display: grid;
+    border: 1px solid var(--black);
+    grid-template-columns: auto auto;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+}
+
+.Arrays{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--black);
+}
+
+.Arrays2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--black);
+}
+
+.Arrays2 p{
+    margin: 0;
+    padding: 0;
+}
+
+.Arrays2 h3 {
+    margin-bottom: 0;
+    font-size: var(--lg);
+}
+
+.año{
+    font-weight: bold;
+}
+
+.Arrays h3 {
+    margin-bottom: 0;
+    font-size: var(--lg);
+}
+
+
+
+.contSal{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2px;
+    font-size: var(--sm);
+    border-bottom: 1px dotted;
+    
+}
+
+.texto{
+    width: 10%;
+}
+
+.año{
+    width: 10%;
+}
+
+.salarios-arrays{
+    display: flex;
+    justify-content: space-between;
+}
+
+.empledo-trabajo {
+    width: 60%;
+    overflow: hidden;
+}
+
+.empledo-año {
+    width: 25%;
+}
+
+.empledo-paga {
+    width: 15%;
+    right: 0;
+    text-align: end;
+    
+}
+
+.salarios-arrays p{
+    margin: 0;
+    margin-top: 2px;
+    font-size: var(--sm);
+    border-bottom: 1px dotted;
+}
+
+.año-title{
+    font-size: 14px !important; 
+    font-weight: bold;
+}
+
+.proyecciones {
+  width: 80%;
+}
+.proyecciones h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.promedio-cajas {
+    height: 100px;
+    border-left: solid 1px #000;
+    border-right: solid 1px #000;
+    border-bottom: solid 1px #000;
+    
+}
+
+.promedio-cajas p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    width: 100%;
+    height: 30px;
+    background: var(--black);
+    display: flex;
+    align-items: center;
+}
+.seleccion{
+    width: 100%;
+    border: none;
+    background: var(--black);
+    color: var(--white);
+    width: 150px;
+    height: 100%;
+}
+
+
+.seleccion:hover {
+    background: var(--white);
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    color: var(--black);
+}
+.cal-prom{
+    border: none;
+    background: transparent;
+    color: var(--white);
+    height: 100%;
+    width: 150px;
+    margin-left: auto;
+}
+
+
+@media (max-width: 1000px) {
+    .proyect-salarios{
+        grid-template-columns: auto auto auto;
+    }
+
+    .inactive{
+        grid-template-columns: auto;
+    }
+}  
+
+@media (max-width: 640px) {
+    .proyect-salarios{
+        grid-template-columns: auto auto;
+    }
+    .inactive{
+        grid-template-columns: auto;
+    }
+   
+}    
